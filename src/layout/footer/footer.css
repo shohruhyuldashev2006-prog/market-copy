@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  margin-top: 150px;
+  margin-bottom: 5rem;
+  background-color: Black;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-radius: 5px;
+  height: 300px;
+}
+
+* {
+  color: aliceblue;
+}
+
+.content {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.content img {
+  filter: brightness(0) invert(1);
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 18px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Copyright {
+  width: 1500px;
+}
+
+.Copyright h3 {
+  color: black;
+  margin-left: 6rem;
+}
+
+.Copyright p {
+  color: black;
+  position: relative;
+}
+
+.ContaIner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
